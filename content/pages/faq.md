@@ -10,10 +10,10 @@ intro: Wifi, pets, kids, and the questions we always get.
 Yes, in the lodge (it's spotty by the cabins). Network and password will be posted at the
 front desk — and here, closer to the date.
 
-## Can I bring my dog?
+## Can Stacey come?
 
-Well-behaved dogs are welcome outdoors and in the cabins, on a leash around the common
-areas. Not in the lodge dining hall, please. Bring a towel for muddy paws.
+Yes! Monroe House is pet-friendly and Stacey is welcome inside. Bring her food, leash,
+and a towel for sandy/muddy paws after the beach.
 
 ## What about the kids?
 

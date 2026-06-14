@@ -1,32 +1,33 @@
 title: George Family Reunion
-eyebrow: Solon, Ohio · Summer 2026
+eyebrow: Lake Michigan · July 2026
 tagline: Three days on the lake — food, stories, and a little chaos.
-location: Maple Lake Lodge
-location_detail: Geauga County, OH
-dates_label: August 14–16, 2026
-countdown_target: "2026-08-14T15:00:00-04:00"
-headcount: ~40 of us
-welcome_heading: We finally picked a weekend — and you're all coming.
+location: Monroe House
+location_detail: Coloma, MI
+dates_label: July 5–8, 2026
+countdown_target: "2026-07-05T12:00:00-04:00"
+headcount: all of us
+welcome_heading: Lake Michigan, here we come.
 welcome_body: >
-  It's been too long since the whole family was in one place. This is home base for
-  everything reunion: when to show up, where to sleep, what's for dinner, and who's
-  bringing the cornhole boards. Check back — we'll keep it updated right up to the day.
+  This is home base for the reunion: when to show up, where to sleep, what's for
+  dinner, and who's in charge of s'mores. We've got a hot tub, a fire pit, a game
+  room, and two gorgeous beaches a two-minute drive away. Check back — we'll keep
+  it updated right up to the day.
 footer_heading: See you at the lake.
 footer_body: Questions? Reply in the family group text. Can't wait to have everyone together.
 glance:
   - icon: "📅"
     label: When
-    value: "Aug 14–16"
-    sub: "Fri afternoon → Sun lunch"
+    value: "Jul 5–8"
+    sub: "Sun afternoon → Wed morning"
   - icon: "📍"
     label: Where
-    value: "Maple Lake Lodge"
-    sub: "Geauga County, OH"
+    value: "Monroe House"
+    sub: "Coloma, MI (Lake Michigan)"
   - icon: "🛏️"
     label: Staying
-    value: "Lodge + cabins"
-    sub: "12 rooms · tent field"
+    value: "3 bedrooms"
+    sub: "Sleeps 10 · pet friendly"
   - icon: "🎒"
     label: Bring
-    value: "Swimsuit & a dish"
-    sub: "See the packing list"
+    value: "Swimsuit & sunscreen"
+    sub: "Beach is 2 min away"
