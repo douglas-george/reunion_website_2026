@@ -1,0 +1,28 @@
+---
+import { getCollection } from 'astro:content';
+import { getSite } from '../lib/site';
+
+interface Props { current?: string; }
+const { current = '' } = Astro.props;
+const site = getSite();
+
+const pages = (await getCollection('pages'))
+  .filter((p) => !p.data.hidden)
+  .sort((a, b) => a.data.order - b.data.order);
+const hasItinerary = (await getCollection('itinerary')).length > 0;
+const hasMeals = (await getCollection('meals')).length > 0;
+---
+<nav>
+  <div class="wrap">
+    <a class="brand" href="/"><span class="mark">{site.title.charAt(0)}</span> {site.title}</a>
+    <div class="navlinks">
+      <a href="/" class={current === '/' ? 'active' : ''}>Home</a>
+      {hasItinerary && <a href="/itinerary" class={current === 'itinerary' ? 'active' : ''}>Itinerary</a>}
+      {hasMeals && <a href="/meals" class={current === 'meals' ? 'active' : ''}>Meals</a>}
+      {pages.map((p) => (
+        <a href={`/${p.id}`} class={current === p.id ? 'active' : ''}>{p.data.title}</a>
+      ))}
+      <span class="lockpill">🔒 Private</span>
+    </div>
+  </div>
+</nav>

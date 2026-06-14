@@ -1,0 +1,23 @@
+---
+import { initials } from '../lib/site';
+interface Meal { name: string; time?: string; dishes: string[]; tags: string[]; cook?: string; }
+interface Props { day: string; meals: Meal[]; }
+const { day, meals = [] } = Astro.props;
+---
+<div class="mgrid">
+  {meals.map((m) => (
+    <div class="mcard">
+      <div class="kicker">{day}</div>
+      <h3>{m.name}</h3>
+      {m.dishes.map((d) => (
+        <div class="dish"><span>{d}</span>{m.time && <span>{m.time}</span>}</div>
+      ))}
+      {m.tags.length > 0 && (
+        <div class="tags">{m.tags.map((t) => <span class="tag">{t}</span>)}</div>
+      )}
+      {m.cook && (
+        <div class="cook"><span class="av">{initials(m.cook)}</span> {m.cook}</div>
+      )}
+    </div>
+  ))}
+</div>

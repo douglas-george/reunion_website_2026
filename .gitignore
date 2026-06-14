@@ -1,0 +1,13 @@
+# build output
+dist/
+# deps
+node_modules/
+# astro
+.astro/
+# env / editor
+.env
+.env.*
+.DS_Store
+*.log
+# builder bookkeeping (created on the server)
+.last-lock

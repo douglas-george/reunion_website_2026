@@ -1,0 +1,15 @@
+day: Friday
+date: August 14
+order: 1
+meals:
+  - name: Welcome cookout
+    time: "7:00"
+    dishes:
+      - Burgers & brats
+      - Grilled veggie skewers
+      - Corn on the cob
+      - Watermelon
+    tags:
+      - Veg option
+      - GF available
+    cook: Doug & Maria

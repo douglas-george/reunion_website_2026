@@ -1,0 +1,16 @@
+day: Sunday
+date: August 16
+order: 3
+events:
+  - time: "9:00 AM"
+    title: Pancakes & coffee, round two
+    location: Lodge dining hall
+    description: Leftovers and a slow start. No rush.
+  - time: "10:30 AM"
+    title: Group cleanup & pack-out
+    location: Everywhere
+    description: Many hands make light work. Check under the bunks for stray socks.
+  - time: "12:00 PM"
+    title: Farewell lunch
+    location: Pavilion
+    description: Sandwiches and leftovers before the drive home. Long hugs, promises to do it again sooner.

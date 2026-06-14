@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import MealCards from '../components/MealCards.astro';
+import { getCollection } from 'astro:content';
+const mealDays = (await getCollection('meals')).sort((a, b) => a.data.order - b.data.order);
+---
+<BaseLayout title="Meals" current="meals">
+  <div class="page-hero">
+    <p class="eyebrow">In the kitchen</p>
+    <h1>Meal plan</h1>
+  </div>
+  <section class="band meals">
+    <div class="wrap">
+      <div class="shead">
+        <p class="eyebrow">Family kitchen</p>
+        <h2>Who's cooking what</h2>
+        <p>Flag a food allergy to whoever's on that meal. Tags show the options we've planned.</p>
+      </div>
+      {mealDays.map((d) => (
+        <div style="margin-bottom:48px">
+          <h3 style="text-align:center;color:#fff;font-size:24px;margin-bottom:22px">{d.data.day} · {d.data.date}</h3>
+          <MealCards day={d.data.day} meals={d.data.meals} />
+        </div>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

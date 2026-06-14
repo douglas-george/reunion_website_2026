@@ -1,0 +1,10 @@
+---
+import { getSite } from '../lib/site';
+const site = getSite();
+---
+<footer>
+  <div class="fmark">{site.title.charAt(0)}</div>
+  <h3>{site.footer_heading ?? 'See you there.'}</h3>
+  {site.footer_body && <p>{site.footer_body}</p>}
+  <div class="priv">🔒 Private site · access by invitation only</div>
+</footer>

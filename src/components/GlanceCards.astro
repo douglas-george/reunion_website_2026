@@ -1,0 +1,15 @@
+---
+import type { GlanceItem } from '../lib/site';
+interface Props { items: GlanceItem[]; }
+const { items = [] } = Astro.props;
+---
+<div class="grid">
+  {items.map((g) => (
+    <div class="gcard">
+      <i>{g.icon}</i>
+      <div class="lbl">{g.label}</div>
+      <div class="val">{g.value}</div>
+      {g.sub && <div class="sub">{g.sub}</div>}
+    </div>
+  ))}
+</div>

@@ -1,0 +1,40 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Timeline from '../components/Timeline.astro';
+import { getCollection } from 'astro:content';
+const days = (await getCollection('itinerary')).sort((a, b) => a.data.order - b.data.order);
+---
+<BaseLayout title="Itinerary" current="itinerary">
+  <div class="page-hero">
+    <p class="eyebrow">The plan</p>
+    <h1>Daily itinerary</h1>
+  </div>
+  <section class="band">
+    <div class="wrap">
+      <div class="daytab">
+        {days.map((d, i) => (
+          <button class={i === 0 ? 'on' : ''} data-day={String(i)}>{d.data.day} · {d.data.date}</button>
+        ))}
+      </div>
+      {days.map((d, i) => (
+        <div class="dayblock" data-day={String(i)} hidden={i !== 0}>
+          <Timeline events={d.data.events} />
+        </div>
+      ))}
+    </div>
+  </section>
+  <script>
+    const btns = Array.from(document.querySelectorAll<HTMLButtonElement>('.daytab button'));
+    const blocks = Array.from(document.querySelectorAll<HTMLElement>('.dayblock'));
+    btns.forEach((b) =>
+      b.addEventListener('click', () => {
+        btns.forEach((x) => x.classList.remove('on'));
+        b.classList.add('on');
+        const d = b.getAttribute('data-day');
+        blocks.forEach((bl) => {
+          bl.hidden = bl.getAttribute('data-day') !== d;
+        });
+      })
+    );
+  </script>
+</BaseLayout>

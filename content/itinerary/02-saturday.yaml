@@ -1,0 +1,32 @@
+day: Saturday
+date: August 15
+order: 2
+events:
+  - time: "8:00 AM"
+    title: Pancake breakfast
+    location: Lodge dining hall
+    description: Coffee's on by 7. Pancake bar, bacon and eggs, fruit. Come as you are.
+  - time: "10:00 AM"
+    title: Lake games & cousins' canoe race
+    location: The beach
+    description: Sandcastle contest for the little kids, the (in)famous canoe race for everyone else.
+  - time: "12:30 PM"
+    title: Lunch
+    location: Pavilion
+    description: Build-your-own subs and a big bowl of watermelon.
+  - time: "2:00 PM"
+    title: Free afternoon — hike, nap, or fish
+    location: Around the lake
+    description: Trail map by the front desk. Quiet hour for the nappers, fishing off the north dock.
+  - time: "4:00 PM"
+    title: Family photo
+    location: The big oak
+    description: Everyone in one place for ten minutes. Wear something you don't mind being in print forever.
+  - time: "6:30 PM"
+    title: The big dinner
+    location: Pavilion
+    description: Smoked brisket and all the sides. Toasts, the slideshow, and cake for the August birthdays.
+  - time: "9:00 PM"
+    title: Music & cards
+    location: Lodge great room
+    description: Someone always brings a guitar. Euchre tournament in the corner.

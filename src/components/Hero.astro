@@ -1,0 +1,54 @@
+---
+import Countdown from './Countdown.astro';
+import type { SiteConfig } from '../lib/site';
+interface Props { site: SiteConfig; }
+const { site } = Astro.props;
+---
+<header id="top">
+  <div class="scene" aria-hidden="true">
+    <svg viewBox="0 0 1440 760" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#3E5C76"></stop>
+          <stop offset="0.42" stop-color="#7E91A0"></stop>
+          <stop offset="0.7" stop-color="#E9A765"></stop>
+          <stop offset="1" stop-color="#F4C98A"></stop>
+        </linearGradient>
+        <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+          <stop offset="0" stop-color="#FFF4DC"></stop>
+          <stop offset="0.5" stop-color="#FCD891"></stop>
+          <stop offset="1" stop-color="#F4C98A" stop-opacity="0"></stop>
+        </radialGradient>
+        <linearGradient id="lake" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#E7B777"></stop>
+          <stop offset="1" stop-color="#6E8587"></stop>
+        </linearGradient>
+      </defs>
+      <rect width="1440" height="760" fill="url(#sky)"></rect>
+      <circle cx="720" cy="330" r="240" fill="url(#sun)"></circle>
+      <circle cx="720" cy="330" r="74" fill="#FFF1D2"></circle>
+      <path d="M0 470 C 250 405, 480 440, 720 425 C 980 408, 1200 448, 1440 420 L1440 540 L0 540 Z" fill="#5E7D74" opacity="0.85"></path>
+      <path d="M0 505 C 300 455, 560 495, 820 482 C 1080 470, 1260 500, 1440 478 L1440 600 L0 600 Z" fill="#3F6356"></path>
+      <rect y="560" width="1440" height="200" fill="url(#lake)"></rect>
+      <ellipse cx="720" cy="585" rx="120" ry="13" fill="#FFE9C2" opacity="0.55"></ellipse>
+      <g fill="#27433A">
+        <path d="M120 560 l16 -54 16 54 z"></path>
+        <path d="M118 540 l18 -42 18 42 z"></path>
+        <path d="M1300 560 l20 -66 20 66 z"></path>
+        <path d="M1296 536 l24 -52 24 52 z"></path>
+        <path d="M1240 560 l13 -42 13 42 z"></path>
+      </g>
+    </svg>
+  </div>
+  <div class="hero-inner">
+    {site.eyebrow && <p class="eyebrow">{site.eyebrow}</p>}
+    <h1 class="title">{site.title}</h1>
+    {site.tagline && <p class="hero-sub">{site.tagline}</p>}
+    <div class="hero-meta">
+      <span>📅 {site.dates_label}</span>
+      <span>📍 {site.location}</span>
+      {site.headcount && <span>👪 {site.headcount}</span>}
+    </div>
+    <Countdown target={site.countdown_target} />
+  </div>
+</header>

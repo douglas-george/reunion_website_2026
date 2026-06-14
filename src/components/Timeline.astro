@@ -1,0 +1,15 @@
+---
+interface Event { time: string; title: string; location?: string; description?: string; }
+interface Props { events: Event[]; }
+const { events = [] } = Astro.props;
+---
+<div class="timeline">
+  {events.map((e) => (
+    <div class="tl">
+      <div class="time">{e.time}</div>
+      <h3>{e.title}</h3>
+      {e.location && <div class="where">📍 {e.location}</div>}
+      {e.description && <p>{e.description}</p>}
+    </div>
+  ))}
+</div>

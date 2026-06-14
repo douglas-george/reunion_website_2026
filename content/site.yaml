@@ -1,0 +1,32 @@
+title: George Family Reunion
+eyebrow: Solon, Ohio · Summer 2026
+tagline: Three days on the lake — food, stories, and a little chaos.
+location: Maple Lake Lodge
+location_detail: Geauga County, OH
+dates_label: August 14–16, 2026
+countdown_target: "2026-08-14T15:00:00-04:00"
+headcount: ~40 of us
+welcome_heading: We finally picked a weekend — and you're all coming.
+welcome_body: >
+  It's been too long since the whole family was in one place. This is home base for
+  everything reunion: when to show up, where to sleep, what's for dinner, and who's
+  bringing the cornhole boards. Check back — we'll keep it updated right up to the day.
+footer_heading: See you at the lake.
+footer_body: Questions? Reply in the family group text. Can't wait to have everyone together.
+glance:
+  - icon: "📅"
+    label: When
+    value: "Aug 14–16"
+    sub: "Fri afternoon → Sun lunch"
+  - icon: "📍"
+    label: Where
+    value: "Maple Lake Lodge"
+    sub: "Geauga County, OH"
+  - icon: "🛏️"
+    label: Staying
+    value: "Lodge + cabins"
+    sub: "12 rooms · tent field"
+  - icon: "🎒"
+    label: Bring
+    value: "Swimsuit & a dish"
+    sub: "See the packing list"
