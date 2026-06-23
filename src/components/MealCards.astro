@@ -1,18 +1,19 @@
 ---
 import { initials } from '../lib/site';
-interface Meal { name: string; time?: string; dishes: string[]; tags: string[]; cook?: string; }
-interface Props { day: string; meals: Meal[]; }
-const { day, meals = [] } = Astro.props;
+interface Meal { name: string; title?: string; description?: string; time?: string; dishes?: string[]; tags?: string[]; cook?: string; }
+interface Props { day?: string; meals: Meal[]; }
+const { meals = [] } = Astro.props;
 ---
 <div class="mgrid">
   {meals.map((m) => (
     <div class="mcard">
-      <div class="kicker">{day}</div>
-      <h3>{m.name}</h3>
-      {m.dishes.map((d) => (
+      <div class="kicker">{m.name}</div>
+      <h3>{m.title ?? m.name}</h3>
+      {m.description && <p class="mdesc">{m.description}</p>}
+      {m.dishes && m.dishes.map((d) => (
         <div class="dish"><span>{d}</span>{m.time && <span>{m.time}</span>}</div>
       ))}
-      {m.tags.length > 0 && (
+      {m.tags && m.tags.length > 0 && (
         <div class="tags">{m.tags.map((t) => <span class="tag">{t}</span>)}</div>
       )}
       {m.cook && (

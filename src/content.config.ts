@@ -31,6 +31,8 @@ const itinerary = defineCollection({
 
 const mealBlock = z.object({
   name: z.string(),
+  title: z.string().optional(),
+  description: z.string().optional(),
   time: z.string().optional(),
   dishes: z.array(z.string()).default([]),
   tags: z.array(z.string()).default([]),

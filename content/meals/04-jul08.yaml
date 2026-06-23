@@ -1,0 +1,12 @@
+day: Wednesday
+date: July 8
+order: 4
+meals:
+  - name: Breakfast
+    title: Hash-Brown Breakfast Bake
+    description: "A make-ahead casserole with a crispy hash-brown crust, assembled the night before and baked fresh in the morning. Served with a fruit salad, muffins and pastries, and yogurt cups for the late crowd."
+    tags: ["Make-ahead"]
+  - name: Lunch
+    title: Leftovers
+    description: "A relaxed graze through the week's best leftovers — carnitas and more — reworked into an easy midday spread before everyone heads out. (Still to be refined.)"
+    tags: ["Easy"]

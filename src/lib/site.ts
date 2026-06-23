@@ -17,6 +17,8 @@ export interface SiteConfig {
   welcome_body?: string;
   footer_heading?: string;
   footer_body?: string;
+  meal_intro?: string;
+  meal_notes?: string[];
   glance?: GlanceItem[];
 }
 

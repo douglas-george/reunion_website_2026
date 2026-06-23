@@ -1,32 +1,43 @@
-title: George Family Reunion
-eyebrow: Solon, Ohio · Summer 2026
-tagline: Three days on the lake — food, stories, and a little chaos.
-location: Maple Lake Lodge
-location_detail: Geauga County, OH
-dates_label: August 14–16, 2026
-countdown_target: "2026-08-14T15:00:00-04:00"
-headcount: ~40 of us
-welcome_heading: We finally picked a weekend — and you're all coming.
+title: Stacey Family Reunion
+eyebrow: Coloma, Michigan · July 2026
+tagline: Two families, one lake house, three days by the water.
+location: Coloma, MI
+location_detail: Lakefront beach house
+dates_label: July 5–8, 2026
+countdown_target: "2026-07-05T16:00:00-04:00"
+headcount: 9 of us · 2 families
+welcome_heading: The Staceys and Georges are headed to the lake.
 welcome_body: >
-  It's been too long since the whole family was in one place. This is home base for
-  everything reunion: when to show up, where to sleep, what's for dinner, and who's
-  bringing the cornhole boards. Check back — we'll keep it updated right up to the day.
+  Three days together on Lake Michigan — sand, sunsets, and time with everyone in one
+  place. This is our home base for keeping the plan straight: who's arriving when, where
+  we're staying, and the running list of things we might do. Nothing's set in stone —
+  add to it as ideas come.
 footer_heading: See you at the lake.
-footer_body: Questions? Reply in the family group text. Can't wait to have everyone together.
+footer_body: This is a living plan — add, change, and tweak as we go. Can't wait.
+meal_intro: >
+  Every meal is built around one idea: gluten-free by default, so the whole table eats the
+  same food — gluten is only ever an optional add-on. Most meals are build-your-own, so
+  everyone makes their plate exactly how they like it.
+meal_notes:
+  - "Gluten-free, always — the whole table eats the same thing. Wheat tortillas, crackers, and bread are set out separately as optional add-ons."
+  - "A plain lane at every meal — there's always something simple (plain meat, cheese, rice, fruit) for the choosier eaters."
+  - "Universal backups — PB&J and a stocked snack-and-fruit bowl stay out all week."
+  - "Drink station — water, milk, juice, and lemonade all day, with coffee for the adults."
+  - "Maybe a treat — s'mores by the fire pit one evening if the night's right."
 glance:
   - icon: "📅"
     label: When
-    value: "Aug 14–16"
-    sub: "Fri afternoon → Sun lunch"
+    value: "July 5–8"
+    sub: "Sun check-in → Wed checkout"
   - icon: "📍"
     label: Where
-    value: "Maple Lake Lodge"
-    sub: "Geauga County, OH"
-  - icon: "🛏️"
+    value: "Coloma, MI"
+    sub: "On Lake Michigan"
+  - icon: "🏖️"
     label: Staying
-    value: "Lodge + cabins"
-    sub: "12 rooms · tent field"
-  - icon: "🎒"
-    label: Bring
-    value: "Swimsuit & a dish"
-    sub: "See the packing list"
+    value: "Lakefront house"
+    sub: "See the house page"
+  - icon: "👪"
+    label: Who
+    value: "Staceys + Georges"
+    sub: "9 of us"

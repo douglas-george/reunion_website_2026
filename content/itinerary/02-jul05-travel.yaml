@@ -1,0 +1,16 @@
+day: Sunday
+date: July 5
+order: 2
+events:
+  - time: "Midday"
+    title: Andrew & Luke fly into Cleveland
+    location: Cleveland
+    description: The rest of the crew lands and everyone regroups before heading west.
+  - time: "Evening"
+    title: Drive toward Michigan — stop in Saline
+    location: Saline, MI
+    description: A brief stop to visit Bill & Kali Stacey along the way.
+  - time: "Later"
+    title: On to the lake house
+    location: The Coloma beach house
+    description: Continue to the VRBO and check in (check-in is mid-afternoon). Unpack, breathe, and catch the sunset.

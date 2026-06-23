@@ -1,0 +1,12 @@
+---
+import Timeline from './Timeline.astro';
+interface DayEntry { data: { day: string; date: string; events: { time: string; title: string; location?: string; description?: string }[] } }
+interface Props { days: DayEntry[]; }
+const { days } = Astro.props;
+---
+{days.map((d) => (
+  <div class="day-group">
+    <h3 class="day-label">{d.data.day} &middot; {d.data.date}</h3>
+    <Timeline events={d.data.events} />
+  </div>
+))}

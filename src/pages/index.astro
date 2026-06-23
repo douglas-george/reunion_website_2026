@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from '../components/Hero.astro';
 import GlanceCards from '../components/GlanceCards.astro';
-import Timeline from '../components/Timeline.astro';
+import FullItinerary from '../components/FullItinerary.astro';
 import MealCards from '../components/MealCards.astro';
 import { getCollection } from 'astro:content';
 import { getSite } from '../lib/site';
@@ -13,7 +13,6 @@ const mealDays = (await getCollection('meals')).sort((a, b) => a.data.order - b.
 const infoPages = (await getCollection('pages'))
   .filter((p) => !p.data.hidden)
   .sort((a, b) => a.data.order - b.data.order);
-const firstDay = days[0];
 const firstMeals = mealDays[0];
 ---
 <BaseLayout current="/">
@@ -31,21 +30,19 @@ const firstMeals = mealDays[0];
     </section>
   )}
 
-  {firstDay && (
-    <section class="band">
-      <div class="wrap">
-        <div class="shead">
-          <p class="eyebrow">The plan</p>
-          <h2>Daily itinerary</h2>
-          <p>A loose schedule — show up when you can, leave when you must.</p>
-        </div>
-        <Timeline events={firstDay.data.events} />
-        <p style="text-align:center;margin-top:30px">
-          <a href="/itinerary" style="color:var(--forest);font-weight:500">See the full itinerary →</a>
-        </p>
+  <section class="band">
+    <div class="wrap">
+      <div class="shead">
+        <p class="eyebrow">The plan</p>
+        <h2>Daily itinerary</h2>
+        <p>The known pieces so far — arrivals, the drive out, and heading home. The lake days in the middle are wide open.</p>
       </div>
-    </section>
-  )}
+      <FullItinerary days={days} />
+      <p style="text-align:center;margin-top:30px">
+        <a href="/itinerary" style="color:var(--forest);font-weight:500">Open the day-by-day view &rarr;</a>
+      </p>
+    </div>
+  </section>
 
   {firstMeals && (
     <section class="band meals">
@@ -57,7 +54,7 @@ const firstMeals = mealDays[0];
         </div>
         <MealCards day={firstMeals.data.day} meals={firstMeals.data.meals} />
         <p style="text-align:center;margin-top:30px">
-          <a href="/meals" style="color:var(--gold);font-weight:500">All meals →</a>
+          <a href="/meals" style="color:var(--gold);font-weight:500">All meals &rarr;</a>
         </p>
       </div>
     </section>
@@ -80,7 +77,7 @@ const firstMeals = mealDays[0];
             </a>
           ))}
         </div>
-        <p class="addhint">✦ This is a starting framework — add a file to <code>content/pages/</code> and a new page and nav link appear automatically.</p>
+        <p class="addhint">This is a starting framework — add a file to <code>content/pages/</code> and a new page and nav link appear automatically.</p>
       </div>
     </section>
   )}

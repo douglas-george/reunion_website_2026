@@ -1,0 +1,12 @@
+---
+import MealCards from './MealCards.astro';
+interface DayEntry { data: { day: string; date: string; meals: any[] } }
+interface Props { days: DayEntry[]; }
+const { days } = Astro.props;
+---
+{days.map((d) => (
+  <div class="meal-day">
+    <h3 class="meal-day-label">{d.data.day} &middot; {d.data.date}</h3>
+    <MealCards meals={d.data.meals} />
+  </div>
+))}

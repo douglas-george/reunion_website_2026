@@ -1,0 +1,16 @@
+day: Tuesday
+date: July 7
+order: 3
+meals:
+  - name: Breakfast
+    title: Build-Your-Own Breakfast Bowls
+    description: "Warm and waiting for early risers and late sleepers alike. Scrambled eggs, crispy breakfast potatoes, bacon, and sausage, built into a bowl or wrapped up, topped with cheese and salsa however you like."
+    tags: ["Build-your-own"]
+  - name: Lunch
+    title: Smashburger, Fries & Hot Dog Bar
+    description: "The house lunch, and a fun one. Thin patties smashed to order on the griddle, hot dogs for the simpler appetites, and a basket of crispy fries. GF buns are the standard, regular buns optional, plus a full topping bar."
+    tags: ["Cooked to order"]
+  - name: Dinner
+    title: Steakhouse Night
+    description: "A 'we went out without leaving the house' finale. Grilled steaks finished with a compound butter board — garlic-herb, blue cheese, and chipotle-lime — with chicken for the non-steak crowd. The centerpiece is a loaded baked-potato bar: butter, sour cream, cheese, bacon, chives, and broccoli, bottomless and build-your-own. Grilled asparagus and a fresh salad round it out."
+    tags: ["The finale", "Build-your-own"]

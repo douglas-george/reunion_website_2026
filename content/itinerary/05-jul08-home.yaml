@@ -1,0 +1,12 @@
+day: Wednesday
+date: July 8
+order: 5
+events:
+  - time: "Morning"
+    title: Pack up & check out
+    location: VRBO
+    description: Tidy the house, one last walk on the beach, and load the cars.
+  - time: "Daytime"
+    title: Head home
+    location: ""
+    description: Safe travels, everyone — until next time.

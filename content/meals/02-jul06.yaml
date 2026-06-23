@@ -1,0 +1,16 @@
+day: Monday
+date: July 6
+order: 2
+meals:
+  - name: Breakfast
+    title: Yogurt & Oats Bar
+    description: "A self-serve spread that holds all morning. Greek yogurt, overnight oats, granola, fresh berries, banana, and honey, with a toast station and hard-boiled eggs for the protein crowd."
+    tags: ["Self-serve"]
+  - name: Lunch
+    title: Bento Beach Boxes
+    description: "The grown-up Lunchable, leveled up and built to travel. Compartmented boxes everyone packs themselves: skewered fruit and cheese, meat roll-ups, olives, crackers, hummus, snap peas, and a few chocolate squares — perfect to carry down to the sand."
+    tags: ["Build-your-own", "Travels well"]
+  - name: Dinner
+    title: Pork Carnitas Bar
+    description: "Slow-cooked pork shoulder crisped under the broiler until the edges go golden, brought to the table sizzling. Build your own over warm corn tortillas with cilantro-lime rice, black beans, tableside guac, charred salsa, pickled onions, cotija, and lime. Pile it high or build a bowl."
+    tags: ["Build-your-own"]

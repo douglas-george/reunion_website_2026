@@ -1,28 +1,24 @@
 ---
 title: Getting there
-order: 1
+order: 2
 icon: "🚗"
-intro: Driving directions, parking, and the gate code.
+intro: Who's arriving when, and the route to the lake.
 ---
 
-## Where it is
+## Arrivals
 
-**Maple Lake Lodge**, Geauga County, OH — about 40 minutes east of downtown Cleveland and
-25 minutes from Solon. Plug **"Maple Lake Lodge"** into your maps app; it'll get you to the
-front gate.
+- **Thursday, July 2 — Cleveland.** Lauren, Cam, Esme, and Jack arrive and stay with Grandma & Grandpa (Dennis & Delta Stacey).
+- **Sunday, July 5 — Cleveland.** Andrew and Luke fly in.
 
-## Driving in
+## The drive to the lake — Sunday, July 5
 
-- Take Route 422 east, then follow the brown park signs for about 6 miles.
-- The lodge road is on the left after the second bridge. **Gate code: replace-me.**
-- Pull up to the lodge to unload, then move cars to the gravel lot by the barn.
+Once everyone's together in Cleveland, we head west toward Michigan:
 
-## Flying in
+1. **Stop in Saline, MI** to visit Bill & Kali Stacey.
+2. **On to the VRBO** at Lake Michigan Beach for check-in.
 
-Closest airport is Cleveland Hopkins (CLE), about an hour out. Let us know your arrival
-time in the family group and we'll sort out rides and carpools.
+It's about a half-day on the road with the stop in the middle — we'll sort out cars and timing closer to the date.
 
-## Arrival window
+## Heading home
 
-Check-in opens **Friday at 3:00 PM**. If you're rolling in late, text Doug and we'll leave
-your room key on the porch.
+Check out is the morning of **Wednesday, July 8**.

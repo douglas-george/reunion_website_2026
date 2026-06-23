@@ -1,26 +1,26 @@
 ---
 title: What to bring
-order: 3
-icon: "🎒"
-intro: Packing list, weather, and what's already provided.
+order: 5
+icon: "🧳"
+intro: Beach gear, sunscreen, and the easy-to-forget stuff.
 ---
 
-## The short list
+## The beach basics
+- Swimsuits & beach towels
+- Sunscreen (lots) and after-sun lotion
+- Hats and sunglasses
+- Beach chairs and a sun shade if you have one
+- Flip-flops / water shoes
+- A cooler and water bottles
 
-- Swimsuit & towel
-- Sunscreen and bug spray (the lake bugs mean business at dusk)
-- A camp chair for the bonfire
-- Comfortable shoes for the trails
-- A light layer — evenings by the water get cool
-- Any medications you need (nearest pharmacy is 15 min away)
-- **A dish to share** if your family is on a meal — coordinate on the [meals page](/meals)
+## For the kids
+- Sand toys, floaties, goggles
+- A couple of extra changes of clothes (sand gets everywhere)
 
-## Weather
+## Good to have
+- A camera for the sunsets
+- Bug spray for the evenings
+- Any medications you need
+- A favorite game or two for downtime
 
-Mid-August at the lake is usually warm days (low 80s) and cool nights (low 60s). We'll post
-the real forecast here the week of.
-
-## Already provided
-
-Lodge rooms have linens and towels; the kitchen is fully stocked with cookware, plates, and
-utensils. Coffee, ice, water, and the basics are covered. You just bring you.
+*The house likely has some basics — check the [listing](https://www.vrbo.com/3086591) and we can coordinate who brings what.*
